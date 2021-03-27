@@ -5,10 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 
-public class Address {
-    String id;
+public class extraMessages {
+
+    String reconfirmationEmailMessage;
+    String transportEmailMessage;
+
 
 }

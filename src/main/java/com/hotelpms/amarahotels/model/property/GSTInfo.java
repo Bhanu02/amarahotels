@@ -7,7 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GSTInfo {
+public class GstInfo {
+
     String GSTIN;
-    String State;
+    String state;
+
 }

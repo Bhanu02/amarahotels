@@ -5,10 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-
-public class Address {
-    String id;
+@AllArgsConstructor
+public class ContactEmails {
 
 }

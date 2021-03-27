@@ -7,8 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+public class Coordinate {
 
-public class Address {
-    String id;
+    String latitude;
+    String  longitude;
 
 }
+

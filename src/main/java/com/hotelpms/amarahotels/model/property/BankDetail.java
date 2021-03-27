@@ -7,8 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+public class BankDetail {
 
-public class Address {
-    String id;
+    String accountNumber;
+    String address1;
+    String address2;
+    String bankName;
+    String ifscCode;
 
 }

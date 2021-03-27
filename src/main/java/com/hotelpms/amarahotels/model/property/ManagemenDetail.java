@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+public class ManagemenDetail {
 
-public class Address {
-    String id;
+    String isFullyManaged;
+    String  staybloomCom;
 
 }

@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
+public class PromoBanner {
 
-public class Address {
-    String id;
-
+    String imgUrl;
+    String link;
 }

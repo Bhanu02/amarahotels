@@ -7,8 +7,13 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+public class AddressBasic {
 
-public class Address {
-    String id;
+    String address;
+    String city;
+    String country;
+    String locality;
+    String pincode;
+    String state;
 
 }

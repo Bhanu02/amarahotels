@@ -4,11 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @AllArgsConstructor
+@Data
 @NoArgsConstructor
-
-public class Address {
-    String id;
-
+public class WhyLabelsTree {
+    String entityUiPb;
 }
