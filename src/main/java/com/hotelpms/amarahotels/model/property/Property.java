@@ -4,13 +4,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
+@Table(name = "property")
 public class Property {
-   private GstInfo gstInfo;
-   private ManagemenDetail managemenDetail;
-   private String masterCheckIn;
-   private String masterCheckOut;
-   private String minimumPrice;
+
+   @Id
+   private int id;
+
+   @OneToOne(targetEntity = Address.class, mappedBy = "property")
+   private Address address;
 }

@@ -9,4 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ContactManagerEmails {
 
+    private String contactEmail;
 }
